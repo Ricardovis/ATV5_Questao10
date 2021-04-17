@@ -1,0 +1,24 @@
+programa {
+	funcao inicio() {
+		inteiro codigo[7] ={ 100, 101, 102, 103, 104, 105, 106}
+    	real valor[7] = {5.00, 2.60, 3.80, 9.00, 11.00, 3.00, 1000.00}
+    	cadeia produto[7] = {"Cachorro quente", "Bauru", "Bauru c/ovo", "Hamburger", "Cheeseburger", "Refrigerante", "Semente dos Deuses"}
+        
+        inteiro i 
+        escreva("Digite o código de seu produto: " )
+        leia(i)
+        limpa()
+        
+        inteiro quant
+        escreva("Quantas unidades? " )
+        leia(quant)
+        limpa()
+        
+        escreva("================== \n")
+        escreva("ITEM: ", produto[i-100], "\n")
+        escreva("QUANTIDADE: ", quant, "\n")
+        escreva("VALOR: RS", valor[i-100]*quant, "\n" )
+        escreva("==================")
+		
+	}
+}
